@@ -30,18 +30,19 @@ module.exports = {
       },
     },
     rules: {
-      '@typescript-eslint/no-var-requires': 0,
-      'react/react-in-jsx-scope': 0,
-      '@typescript-eslint/explicit-function-return-type': 0,
-      '@typescript-eslint/no-empty-function': 0, // 禁止出现空函数
-      '@typescript-eslint/no-explicit-any': 0,
-      '@typescript-eslint/no-unused-vars': 0, // 禁止出现未使用过的变量
-      '@typescript-eslint/no-use-before-define': 0, // 禁止在变量定义之前使用它们
-      '@typescript-eslint/class-name-casing': 0,
-      '@typescript-eslint/triple-slash-reference': 0,
-      '@typescript-eslint/ban-types': 0,
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
+      'react/react-in-jsx-scope': 0,
+      '@typescript-eslint/ban-types': 0,
+      '@typescript-eslint/dot-notation': 0, // 尽可能地执行点表示法
+      '@typescript-eslint/no-unused-vars': 0, // 禁止出现未使用过的变量
+      '@typescript-eslint/no-explicit-any': 0,
+      '@typescript-eslint/no-var-requires': 0,
+      '@typescript-eslint/class-name-casing': 0,
+      '@typescript-eslint/no-empty-function': 0, // 禁止出现空函数
+      '@typescript-eslint/no-use-before-define': 0, // 禁止在变量定义之前使用它们
+      '@typescript-eslint/triple-slash-reference': 0,
+      '@typescript-eslint/explicit-function-return-type': 0,
       'prettier/prettier': [
         'error',
         {
